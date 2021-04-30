@@ -9,11 +9,7 @@ def number_to_words(number):
 
     while number > 0:
         last_digit = number % 10
-
-
         number = math.floor(number/10)
-
-
         words = dict[last_digit] + words 
 
     return words
